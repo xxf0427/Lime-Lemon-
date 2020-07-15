@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+   <meta charset="utf-8">
+    <title>Lime&Lemon 官网</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+        ul
+        {
+          list-style-type:none;
+          margin-bottom:80px;
+          padding:0;
+          position: fixed;
+          bottom: 0;
+          margin-left:80px;
+          overflow: hidden;
+        }
+        
+        ul.shangmian
+        {
+          list-style-type:none;
+          top:170px;
+          padding:0;
+          position: fixed;
+          margin-left:280px;
+          overflow: hidden;
+        }
+
+        li
+        {
+        display:inline;
+        padding-left:130px;
+        }
+        
+        a {text-decoration:none;}
+        a:link {color:#ffffff;}      /* 未访问链接*/
+        a:visited {color:#ffffff;}  /* 已访问链接 */
+        a:hover {font-weight:bold;color: #000000;}  /* 鼠标移动到链接上 */
+        a:active {font-weight:bold;color: #000000;}  /* 鼠标点击时 */
+
+        a.shangmian {text-decoration:none;}
+        a.shangmian:link {color:#685254;}      /* 未访问链接*/
+        a.shangmina:visited {color:#685254;}  /* 已访问链接 */
+        a.shangmian:hover {font-weight:bold;color: #000000;border-style: solid;border-color:#685254; border-bottom-style: none;}  /* 鼠标移动到链接上 */
+        a.shangmian:active {font-weight:bold;color: #000000;}  /* 鼠标点击时 */
+
+        img.xilie
+        {
+          opacity:0.7;
+          filter:alpha(opacity=70);
+          padding-left: 60px;
+        }
+        
+        img.xilie:hover
+        {
+          opacity:1.0;
+          filter:alpha(opacity=100);
+        }
+
+</style>
+</head>
+
+<body style="background-image:url('迷雾.png'); background-size: 100%;">
+     <img src="LL.png" alt="lime&lemon logo" height="200" width="200" style="display:block;margin:auto;">
+
+        <ul class="shangmian">
+        <li><a class="shangmian"  onmouseover="chuxian()"; >易系列</a></li>
+        <li><a class="shangmian" onmouseover="chuxia()";>梵高星空系列</a></li>
+        <li><a class="shangmian" onmouseover="chuxi()"; >时装秀场</a></li>
+        </ul>
+
+     <img src="分割线.png"  height="5" width="1000" style="display:block;margin-top: 0px;margin-left: 160px;">
+
+        <ul>
+        <li><a href="个人网站首页.html"target="_self">首页</a></li>
+        <li><a href="个人网站品牌介绍.html" target="_self">品牌故事</a></li>
+        <li><a href="设计师简介.html" target="_self">设计师简介</a></li>
+        <li style="float:right"><a href="定制购买.html"target="_self">定制购买</a></li>
+        <li style="float:right"><a href="#about">系列设计</a></li>
+        </ul>
+
+        <br>
+
+     <img src="全新上线敬请期待.png" alt="lime&lemon logo" height="50" width="570" 
+          style="display:block; position: absolute;bottom: 15px;left: 400px;">
+
+     <div id="yi" style="display: none;">
+        <img   src="话筒流体话.jpeg" alt="易系列设计" width="150" height="160" style="position: absolute;left: 80px;top: 15px;">
+        <h6 style="position: absolute;left: 250px;top: 50px;">
+          <b><i>红与白之间 释放内心烟火</b></i>
+          <br><br>易系列是根据对“su er"的理解而创作的
+          <br>每个人身体里都住了两个自己
+          <br>一个红色的，释放真我
+          <br>一个白色的，抑制理性</h6>
+            <img  class="xilie" src="易系列/IMG_1292.jpg" alt="易系列设计图" width="150" height="200" >
+            <img  class="xilie" src="易系列/IMG_1293.jpg" alt="易系列设计图" width="150" height="200" >
+            <img  class="xilie" src="易系列/IMG_1294.jpg" alt="易系列设计图" width="150" height="200" >
+            <img  class="xilie" src="易系列/IMG_1296.jpg" alt="易系列设计图" width="150" height="200" >
+            <img  class="xilie" src="易系列/IMG_1298.jpg" alt="易系列设计图" width="150" height="200" >
+            <img  class="xilie" src="易系列/IMG_1299.jpg" alt="易系列设计图" width="150" height="200" >
+            <img  class="xilie" src="易系列/IMG_1301.jpg" alt="易系列设计图" width="150" height="200" >
+            <img  class="xilie" src="易系列/IMG_1302.jpg" alt="易系列设计图" width="150" height="200" >
+            <img  class="xilie" src="易系列/IMG_1304.jpg" alt="易系列设计图" width="150" height="200" >
+            <img  class="xilie" src="易系列/IMG_1307.jpg" alt="易系列设计图" width="150" height="200" >
+            <img  class="xilie" src="易系列/IMG_1309.jpg" alt="易系列设计图" width="150" height="200" >
+            <img  class="xilie" src="易系列/IMG_1310.jpg" alt="易系列设计图" width="150" height="200" >
+      </div>
+    
+      <div id="fan" style="display: none;">
+         <img   src="浪漫梵高.jpeg" alt="易系列设计" width="180" height="140" style="position: absolute;left: 80px;top: 35px;">
+         <h6 style="position: absolute;left: 280px;top: 50px;">
+          <b><i>至爱梵高 星河浪漫</b></i>
+          <br><br>梵高星空系列是根据梵高的名作《星空》而创作的
+          <br>一位伟大的理想主义者
+          <br>一场在星河上的旅行
+          <br>一起走进梵高的浪漫世界</h6>
+            <img  class="xilie" src="梵高星空系列/IMG_1275.jpg" alt="梵高星空系列设计图" width="150" height="200" >
+            <img  class="xilie" src="梵高星空系列/IMG_1277.jpg" alt="梵高星空系列设计图" width="150" height="200" >
+            <img  class="xilie" src="梵高星空系列/IMG_1279.jpg" alt="梵高星空系列设计图" width="150" height="200" >
+            <img  class="xilie" src="梵高星空系列/IMG_1280.jpg" alt="梵高星空系列设计图" width="150" height="200" >
+            <img  class="xilie" src="梵高星空系列/IMG_1281.jpg" alt="梵高星空系列设计图" width="150" height="200" >
+            <img  class="xilie" src="梵高星空系列/IMG_1282.jpg" alt="梵高星空系列设计图" width="150" height="200" >
+            <img  class="xilie" src="梵高星空系列/IMG_1283.jpg" alt="梵高星空系列设计图" width="150" height="200" >
+            <img  class="xilie" src="梵高星空系列/IMG_1286.jpg" alt="梵高星空系列设计图" width="150" height="200">
+            <img  class="xilie" src="梵高星空系列/IMG_1287.jpg" alt="梵高星空系列设计图" width="150" height="200" >
+            <img  class="xilie" src="梵高星空系列/IMG_1288.jpg" alt="梵高星空系列设计图" width="150" height="200" >
+            <img  class="xilie" src="梵高星空系列/IMG_1289.jpg" alt="梵高星空系列设计图" width="150" height="200" >
+            <img  class="xilie" src="梵高星空系列/IMG_1290.jpg" alt="梵高星空系列设计图" width="150" height="200" >
+      </div>
+      
+      <div id="shi" style="display: none;" >
+             <video width="700" height="400" controls  style="margin-left: 310px;">
+                  <source src="香奈儿！.mp4" type="video/mp4">
+             </video>
+      </div>
+
+</body>
+
+<script type="text/javascript">
+  
+  var yyy = document.getElementById("yi");
+  var fff = document.getElementById("fan");
+  var sss = document.getElementById("shi");
+ 
+  function chuxian(){
+          fff.style.display="none";
+          yyy.style.display="inline-block";
+          sss.style.display="none";
+          }
+          
+  function chuxia(){
+            yyy.style.display="none";
+          fff.style.display="inline-block";
+          sss.style.display="none";
+          }
+          
+  function chuxi(){
+            sss.style.display="inline-block";
+            yyy.style.display="none";
+          fff.style.display="none";
+          } 
+</script>
+</html>
